@@ -1,0 +1,19 @@
+# Ignore compiled class files
+*.class
+
+# Ignore all log or temp files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore data files (except the folder itself)
+data/tasks.txt
+
+# If you want to keep the folder structure on GitHub
+!data/.gitkeep
